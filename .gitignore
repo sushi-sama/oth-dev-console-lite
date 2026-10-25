@@ -1,0 +1,19 @@
+# build output
+bin/
+obj/
+
+# local research / backups / earlier prototypes
+.backups/
+.tools/
+livery-mod/
+src/OTHDevConsole/
+OVER_THE_HILL_MODDING.md
+
+# keep the shipped DLL only
+/*.dll
+!dist/*.dll
+
+# editor / OS
+.vs/
+*.user
+Thumbs.db
